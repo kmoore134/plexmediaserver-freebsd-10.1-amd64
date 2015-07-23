@@ -4,6 +4,7 @@ dev/stdin
 dev/stdout
 dev/urandom
 etc/host.conf
+etc/rc.conf
 etc/resolv.conf
 root/.history
 var/log/auth.log
