@@ -1,0 +1,7 @@
+# Edit this file for local setup changes
+SSL=/usr/home/plex/jenkins/pms-deps-universal-v2/BUILD_TAG/freebsd-x86_64/output/pms-depends-freebsd-x86_64-release-8798140
+_ssl _ssl.c \
+	-DUSE_SSL -I$(SSL)/include -I$(SSL)/include/openssl \
+	-L$(SSL)/lib -lssl -lcrypto
+
+
